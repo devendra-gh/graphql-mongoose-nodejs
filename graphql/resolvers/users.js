@@ -6,7 +6,6 @@ const { SECRETE_KEY } = require('../../config');
 const { validateRegisterInput, validateLoginInput } = require('../../util/validators');
 const User = require('../../models/Users');
 
-
 function generateToken(user) {
     const token = jwt.sign(
         {
@@ -75,7 +74,6 @@ module.exports = {
             }
 
             // hash password and create an auth token
-
             password = await bcrypt.hash(password, 12);
 
             const newUser = new User({

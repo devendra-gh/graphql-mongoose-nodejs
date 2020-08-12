@@ -1,13 +1,13 @@
 {
   "name": "merng",
   "version": "1.0.0",
-  "description": "",
+  "description": "GraphQL, NodeJS, MongoDB, Mongoose, ReactJS",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index"
   },
   "keywords": [],
-  "author": "",
+  "author": "Devendra",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.16.1",
